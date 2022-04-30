@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #c4c4c4;
+}
+
+.material-symbols-outlined{
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.left{
+    position: relative;
+    width: 100%;
+    position: relative;
+   
+}
+
+.hero-bg{
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 65%;
+    height: 85%;
+    background-color: blueviolet;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    z-index: -1;
+}
+
+.phone{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 65%;
+    width: 35%;
+    border-radius: 40px;
+    background-color: #fff;
+     
+}
+.content-box{
+    position: absolute;
+    content: "";
+    background-color: #F5F3F7;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    top: 50%;
+    left: 50%;
+    border-radius: 35px;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    position: absolute;
+    height: 15%;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    top: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.top-left{
+    width: 100%;
+    position: relative;
+   
+}
+.top-left-content-box{
+    position: absolute;
+    top: 45%;
+display: flex;
+width: 80%;
+}
+#avatar{
+    display: block;
+    border: 1px solid #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+.profile-name{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+}
+.heading-main{
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+}
+.heading-sub{
+    display: block;
+    font-size: 8px;
+    font-weight: 400;
+    color:  #D99EFF;
+}
+
+.top-right{
+    position: relative;
+}
+
+#more-icon{
+    position: absolute;
+    top: 2px;
+    font-size: 12px;
+}
+
+.top::after{
+    content: "";
+    width: 50%;
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+
+.right{
+    width: 100%;
+   
+}
